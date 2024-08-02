@@ -16,12 +16,14 @@
   "imports": {
     "#controllers/*": "./app/controllers/*.js",
     "#exceptions/*": "./app/exceptions/*.js",
+    "#jobs/*": "./app/jobs/*.js",
     "#models/*": "./app/models/*.js",
     "#mails/*": "./app/mails/*.js",
     "#services/*": "./app/services/*.js",
     "#listeners/*": "./app/listeners/*.js",
     "#events/*": "./app/events/*.js",
     "#middleware/*": "./app/middleware/*.js",
+    "#types/*": "./app/types/*.js",
     "#validators/*": "./app/validators/*.js",
     "#providers/*": "./providers/*.js",
     "#policies/*": "./app/policies/*.js",
@@ -57,6 +59,7 @@
     "@adonisjs/lock": "^1.1.1",
     "@adonisjs/lucid": "^21.1.0",
     "@vinejs/vine": "^2.1.0",
+    "cron": "^3.1.7",
     "luxon": "^3.4.4",
     "mysql2": "^3.11.0",
     "reflect-metadata": "^0.2.2"
